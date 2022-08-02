@@ -8,7 +8,7 @@ go run server.go
 
 open browser and go to localhost:8080
 
-paste following queries inside graphiql playground:
+paste following queries inside graphiql playground and use them to create/retrieve records:
 
 ```
 mutation createCustomer {
@@ -103,5 +103,3 @@ query findOrderItems {
   }
 }
 ```
-
-use the inputs/queries to create/retrieve records.
